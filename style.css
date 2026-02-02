@@ -1,0 +1,34 @@
+/*style.css*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffb8be; /* Light pink background */
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#image-container {
+    
+}
+
+#question{
+    font-family: 'Short Stack', cursive;
+    font-size: 52px;
+}
+
+button {
+    background-color: #fd89a4; /* Vibrant pink */
+    font-family: 'Short Stack', cursive;
+    margin: 0 10px;
+    color: rgb(179, 72, 116);
+    border: none;
+    padding: 15px 30px;
+    font-size: 26px;
+    cursor: pointer;
+}
