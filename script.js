@@ -1,12 +1,12 @@
 // script.js
 
-//Function to handle button click event
+//Function to handle button click events
 function selectOption(option) {
     // Check if the option is clicked
-    if (option === "yes") {
+    if (option === 'yes') {
         displaygglltt();
-    } else if (option === "no") {
-        document.getElementById("no-buttoon").innerText = "You sure:(";
+    } else if (option === 'no') {
+        document.getElementById('no-buttoon').innerText = 'you sure:(';
         var yesButton = document.getElementById("yes-button");
         var currentfontSize = window.getComputedStyle(yesButton).getPropertyValue("font-size");
         var newFontSize = parseFloat(currentfontSize) + 2;
@@ -59,3 +59,4 @@ function displaygglltt() {
 }
 // Display the gltt.jpg initially 
 displaygltt();
+
