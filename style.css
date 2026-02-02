@@ -14,11 +14,14 @@ body {
 }
 
 #question{
-    font-family: 'Short Stack', cursive;
+    font-family: 'Sacramento', cursive;
     font-size: 52px;
 }
 
-#button {
+#options  {
+    margin-top: 20px;
+
+button  {
     background-color: #fd89a4; /* Vibrant pink */
     font-family: 'Short Stack', cursive;
     margin: 0 10px;
@@ -29,3 +32,4 @@ body {
     cursor: pointer;
 
 }
+
