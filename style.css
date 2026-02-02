@@ -23,7 +23,7 @@ body {
 
 button  {
     background-color: #fd89a4; /* Vibrant pink */
-    font-family: 'Short Stack', cursive;
+    font-family: 'Sacramento', cursive;
     margin: 0 10px;
     color: rgb(179, 72, 116);
     border: none;
@@ -32,4 +32,5 @@ button  {
     cursor: pointer;
 
 }
+
 
