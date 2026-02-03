@@ -12,7 +12,7 @@ function selectOption(option) {
         var newFontSize = parseFloat(currentfontSize) + 2;
         yesButton.style.fontSize = newFontSize + "px";
     } else if(option === "no") {
-        document.getElementById("no-button").innerText = "You sure";
+        document.getElementById("no-button").innerText = "you sure";
         var yesButton = document.getElementById("yes-buttoon");
         var currentfontSize = window.getComputedStyle(yesButton).getPropertyValue("font-size");
         var newFontSize = parseFloat(currentfontSize) + 2;
@@ -59,5 +59,6 @@ function displaygglltt() {
 }
 // Display the gltt.jpg initially 
 displaygltt();
+
 
 
